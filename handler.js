@@ -523,8 +523,8 @@ export async function participantsUpdate({ id, participants, action }) {
             if (chat.welcome) {
                 let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata
                 for (let user of participants) {
-                    let pp = 'https://i.imgur.com/nHHUm1a.png'
-                    let bg = 'https://cdn.discordapp.com/attachments/850808002545319957/859359637106065408/bg.png'
+                    let pp = ''
+                    let bg = ''
 
                     try {
                         pp = await this.profilePictureUrl(user, 'image')
