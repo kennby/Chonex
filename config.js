@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url'
 
 global.owner = [
   ['51902247905', 'kencito', true],
-  ['51902247905', 'kenn', false],
+  ['51902247905', '', false],
 ] //Numeros de owner 
 
 global.mods = ['']
@@ -27,11 +27,11 @@ global.APIKeys = { // APIKey Here
 
 // CONEXION CON CODIGO DE 8 DIGITOS
 
-global.KasumaCode = "" 
+global.NothingCode = "" 
 global.confirmCode = ""
 
 
-// KASU API
+//API
 global.apikasu = "https://apikasu.onrender.com"
 global.apikeykasu = "SebastianDevelop"
 
@@ -54,7 +54,7 @@ global.apiconversion = ["https://api.exchangerate-api.com"]
 global.conversiondocs = ["https://www.easymarkets.com/int/es/learn-centre/discover-trading/currency-acronyms-and-abbreviations/"]
 
 // Sticker WM
-global.packname = 'chonex-bot'
+global.packname = 'nothing-bot'
 global.author = 'kencito'
 global.waig = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
 global.wagp = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
